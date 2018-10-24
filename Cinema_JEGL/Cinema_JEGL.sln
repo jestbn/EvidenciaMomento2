@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_JEGL.Android", "Cinema_JEGL\Cinema_JEGL.Android\Cinema_JEGL.Android.csproj", "{EBB62347-2E0A-4413-9087-30A69D360456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_JEGL", "Cinema_JEGL\Cinema_JEGL\Cinema_JEGL.csproj", "{9396B302-B796-49B6-AB3C-B6338E03F547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB62347-2E0A-4413-9087-30A69D360456}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9396B302-B796-49B6-AB3C-B6338E03F547}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB74796E-524E-4EB0-8CA0-B116BE3B4856}
+	EndGlobalSection
+EndGlobal
