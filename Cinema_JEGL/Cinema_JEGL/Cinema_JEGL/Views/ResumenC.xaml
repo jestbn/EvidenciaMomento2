@@ -36,7 +36,7 @@
                 <Label Text="Total A Pagar"/>
                 <Label Text="Mucha Plata"/>
             </StackLayout>
-            <Button Text="Finalizar compra"></Button>
+            <Button Text="Finalizar compra" Pressed="Button_Pressed"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
