@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinema_JEGL.Views.Funciones"
+             Title="Funciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Label Text="Titulo" 
+                               Grid.Column="2"
+                               Grid.Row="1"/>
+                <Label x:Name="lblTitulo"
+                       Text="-"
+                       Grid.Column="1"
+                       Grid.Row="1"/>
+
+                    
+                <Label Text="Fecha" 
+                               Grid.Column="1"
+                               Grid.Row="2"/>
+                <Label x:Name="lblFecha"
+                       Text="-"
+                       Grid.Column="2"
+                       Grid.Row="2"/>
+
+
+                <Label Text="Cantidad de boletaS" 
+                               Grid.Column="1"
+                               Grid.Row="3"/>
+                <Entry Keyboard="Numeric" x:Name="CantBoletas" 
+                       Grid.Column="2"
+                       Grid.Row="3"/>
+            </Grid>
+            <ListView x:Name="ListaFuncion" ItemSelected="ListaFuncion_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Label Text="{Binding Cinema} " 
+                               Grid.Column="1"
+                               Grid.Row="1"/>
+                                <Label Text="{Binding Sala}"
+                               Grid.Column="2"
+                               Grid.Row="1"/>
+                                <Label Text="{Binding Ciudad}"
+                               Grid.Column="3"
+                               Grid.Row="1"/>
+                                <Label Text="{Binding Precio}"
+                               Grid.Column="1"
+                               Grid.Row="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

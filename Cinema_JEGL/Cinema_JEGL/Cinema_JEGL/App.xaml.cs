@@ -1,3 +1,4 @@
+using Cinema_JEGL.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -9,9 +10,10 @@ namespace Cinema_JEGL
 	{
 		public App ()
 		{
-			InitializeComponent();
 
-			MainPage = new MainPage();
+            InitializeComponent();
+
+			MainPage = new Cartelera();
 		}
 
 		protected override void OnStart ()

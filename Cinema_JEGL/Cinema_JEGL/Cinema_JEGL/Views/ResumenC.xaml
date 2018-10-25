@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinema_JEGL.Views.ResumenC"
+             Title="Resumen Compra">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Image Source="https://misapis.azurewebsites.net/Content/Images/venom.jpg" />
+            <StackLayout Padding="30">
+                <Label Text="Pelicula"/>
+                <Grid>
+                    <Label Text="Titulo" Grid.Column="1" Grid.Row="1"/>
+                    <Label Text="{Binding Nombre}" Grid.Column="2" Grid.Row="1" />
+                    <Label Text="Fecha" Grid.Column="1" Grid.Row="2"/>
+                    <Label Text="{Binding FechaEstreno}" Grid.Column="2" Grid.Row="2" />
+
+                </Grid>
+                <Label Text="Funcion"/>
+                <Grid>
+                    <Label Text="Cinema" Grid.Column="1" Grid.Row="1"/>
+                    <Label Text="{Binding Cinema}" Grid.Column="2" Grid.Row="1" />
+                    
+                    <Label Text="Sala" Grid.Column="1" Grid.Row="2"/>
+                    <Label Text="{Binding Sala}" Grid.Column="2" Grid.Row="2" />
+                    
+                    <Label Text="Ciudad" Grid.Column="1" Grid.Row="3"/>
+                    <Label Text="{Binding Ciudad}" Grid.Column="2" Grid.Row="3" />
+                </Grid>
+                <Label Text="Tiquetes" />
+                <Grid>
+                    <Label Text="Precio" Grid.Column="1" Grid.Row="1"/>
+                    <Label Text="15000" Grid.Column="2" Grid.Row="1" />
+                    <Label Text="Cantidad" Grid.Column="1" Grid.Row="2"/>
+                    <Label Text="7" Grid.Column="2" Grid.Row="2" />
+                </Grid>
+                <Label Text="Total A Pagar"/>
+                <Label Text="Mucha Plata"/>
+            </StackLayout>
+            <Button Text="Finalizar compra"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
